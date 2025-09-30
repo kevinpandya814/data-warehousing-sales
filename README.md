@@ -46,6 +46,8 @@ The Gold Layer serves as the consumption-ready data layer, enabling:
     Supports both data tracebility(Bronze Layer) and analytics readiness(Gold Layer).
 
 ## Folder Structure
+```bash
+
 📂 data-warehouse-sales
 │── 📜 README.md                # Main project documentation
 │
@@ -81,3 +83,5 @@ The Gold Layer serves as the consumption-ready data layer, enabling:
 |   |   ├── 📜 customer_report.sql                  # Script to create a customer data mart ready for analysis and BI.
 |   |   ├── 📜 product_report.sql                   # Script to create a product data mart ready for analysis and BI.
 └── └── 📜 SalesAnalysis.sql                        # Ad-hoc SQL queries used in creating data marts.
+
+---
